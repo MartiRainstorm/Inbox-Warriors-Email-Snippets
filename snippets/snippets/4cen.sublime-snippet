@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+<tr>
+    <td>
+        <table cellpadding="0" cellspacing="0" border="0" width="$1">
+            <tr>
+                <td align="center">
+                   <a href=""><img src="images/img_$2.jpg" alt="" style="display: block; border: 0"></a>
+               </td>
+               <td align="center">
+                   <a href=""><img src="images/img_$3.jpg" alt="" style="display: block; border: 0"></a>
+               </td>
+               <td align="center">
+                   <a href=""><img src="images/img_$4.jpg" alt="" style="display: block; border: 0"></a>
+               </td>
+               <td align="center">
+                   <a href=""><img src="images/img_$5.jpg" alt="" style="display: block; border: 0"></a>
+               </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+]]></content>
+ <tabTrigger>4cen</tabTrigger>
+</snippet>

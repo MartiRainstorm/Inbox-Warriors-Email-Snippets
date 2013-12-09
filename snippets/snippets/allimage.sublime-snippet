@@ -1,0 +1,55 @@
+<snippet>
+    <content><![CDATA[
+<tr>
+    <td align="center">
+        <a href=""><img src="images/img_03.jpg" alt="" style="display: block; border: 0"></a>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <a href=""><img src="images/img_05.jpg" alt="" style="display: block; border: 0"></a>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <a href=""><img src="images/img_06.jpg" alt="" style="display: block; border: 0"></a>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <a href=""><img src="images/img_07.jpg" alt="" style="display: block; border: 0"></a>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <a href=""><img src="images/img_08.jpg" alt="" style="display: block; border: 0"></a>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <a href=""><img src="images/img_09.jpg" alt="" style="display: block; border: 0"></a>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <a href=""><img src="images/img_10.jpg" alt="" style="display: block; border: 0"></a>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <a href=""><img src="images/img_11.jpg" alt="" style="display: block; border: 0"></a>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <a href=""><img src="images/img_12.jpg" alt="" style="display: block; border: 0"></a>
+    </td>
+</tr>
+<tr>
+    <td align="center">
+        <a href=""><img src="images/img_13.jpg" alt="" style="display: block; border: 0"></a>
+    </td>
+</tr>
+]]></content>
+<tabTrigger>allimage</tabTrigger>
+</snippet>

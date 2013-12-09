@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{?if $contacts_data_6 == '$'?}
+
+{?/if?}
+]]></content>
+<tabTrigger>twcif</tabTrigger>
+</snippet>

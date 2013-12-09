@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<table cellpadding="0" cellspacing="0" border="0" width="$1" class="width100">
+    <tr>
+        <td width="10" class="width10"><img src="images/spacer.gif" style="display: block; border: 0" width="10" height="1" class="width10"></td>
+        <td width="$2" class="width580" align="center">
+            $3
+        </td>
+        <td width="10" class="width10"><img src="images/spacer.gif" style="display: block; border: 0" width="10" height="1" class="width10"></td>
+    </tr>
+</table>
+]]></content>
+<tabTrigger>margin10</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+style="background-color:$1;"
+]]></content>
+   <tabTrigger>back</tabTrigger>
+</snippet>

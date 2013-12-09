@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+/*Mobile*/
+           @media only screen and (max-width: 500px) {
+           	*[class].fl{float:left !important;}
+           	*[class].wr{display:block !important;}
+           	*[class].width100{width:100% !important;}
+            *[class].width10{width:3.5% !important;}
+            *[class].width580{width:93% !important;}
+            *[class].hidden{height:12px !important; font-style:12px !important;}
+            *[class].lc{text-align:center !important;}
+            *[class].delete{width:0px !important; height:0px !important; font-size:0px !important; line-height:0px !important;}
+            *[class].trmobile{width:100% !important; height:10px !important; font-size:5px !important; line-height:5px !important;}
+
+           }  
+]]></content>
+<tabTrigger>cssmobile</tabTrigger>
+</snippet>

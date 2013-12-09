@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<ul>
+    <li><a href="" class="class-1"></a></li>
+    <li><a href="" class="class-2"></a></li>
+    <li><a href="" class="class-3"></a></li>
+    <li><a href="" class="class-4"></a></li>
+    <li><a href="" class="class-5"></a></li>
+</ul>$0
+]]></content>
+    <tabTrigger>navvy</tabTrigger>
+</snippet>

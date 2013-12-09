@@ -1,0 +1,165 @@
+/*
+    * Apply to all */
+
+@media screen
+
+    body,
+    button,
+    input,
+    select,
+    textarea
+        font-family: "proxima-nova", sans-serif
+        font-size: 16px
+        font-size: 1.6rem
+        line-height: 1.5
+        color: $text
+
+    h1, h2, h3, h4, h5, h6
+        font-weight: 700
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 1.0)
+
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
+        text-decoration: none
+
+    h1
+        font-size: 2.4em
+        line-height: 1.1
+    h2
+        font-size: 2em
+        line-height: 1.1
+    h3
+        font-size: 1em
+        line-height: 1.1
+    h4
+        font-size: 1em
+    h5
+        font-size: 0.8em
+    h6
+        font-size: 0.7em
+
+    p, li
+        font-size: 1em
+
+    .pages p, .pages li
+        font-size: 0.8em
+
+    p > strong, strong
+        font-weight: 700
+
+    p > em, em
+        font-style: italic
+
+    .light
+        font-weight: 300
+
+    .widget
+
+    .site-main a, site-footer a
+        white-space: pre
+        white-space: pre-wrap
+        white-space: pre-line
+        white-space: -pre-wrap
+        white-space: -o-pre-wrap
+        white-space: -moz-pre-wrap
+        white-space: -hp-pre-wrap
+        word-wrap: break-word
+
+/*
+    *Layout Sasquatch */
+
+@media all and (min-width: 1300px)
+    body:after
+        content: 'Sasquatch'
+        display: none
+
+    body,
+    button,
+    input,
+    select,
+    textarea
+        font-family: "proxima-nova", sans-serif
+        font-size: 15px
+        font-size: 1.5rem
+        line-height: 1.5
+        color: $text
+
+/*
+    *Layout PopaBear */
+
+@media all and (max-width: 1299px) and (min-width: 1000px)
+    body:after
+        content: 'PopaBear'
+        display: none
+
+    body,
+    button,
+    input,
+    select,
+    textarea
+        font-family: "proxima-nova", sans-serif
+        font-size: 14px
+        font-size: 1.4rem
+        line-height: 1.5
+        color: $text
+        @include transition(font-size 300ms ease-in)
+
+/*
+    *Layout MomaBear */
+
+@media all and (max-width: 999px) and (min-width: 700px)
+    body:after
+        content: 'MomaBear'
+        display: none
+
+    body,
+    button,
+    input,
+    select,
+    textarea
+        font-family: "proxima-nova", sans-serif
+        font-size: 13px
+        font-size: 1.3rem
+        line-height: 1.5
+        color: $text
+        @include transition(font-size 300ms ease-in)
+
+
+/*
+    *Layout BabyBear */
+
+@media all and (max-width: 699px) and (min-width: 500px)
+    body:after
+        content: 'BabyBear'
+        display: none
+
+    body,
+    button,
+    input,
+    select,
+    textarea
+        font-family: "proxima-nova", sans-serif
+        font-size: 13px
+        font-size: 1.3rem
+        line-height: 1.5
+        color: $text
+        @include transition(font-size 300ms ease-in)
+
+/*
+    *Layout Goldilocks */
+
+@media all and (max-width: 499px) and (min-width: 20px)
+    body:after
+        content: 'Goldilocks'
+        display: none
+
+    body,
+    button,
+    input,
+    select,
+    textarea
+        font-family: "proxima-nova", sans-serif
+        font-size: 12px
+        font-size: 1.2rem
+        line-height: 1.5
+        color: $text
+        @include transition(font-size 300ms ease-in)

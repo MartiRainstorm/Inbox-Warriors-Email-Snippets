@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snippets documentation</title>
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <style>
+
+
+    </style>
+    <link href="css/prism.css" rel="stylesheet" />
+</head>
+    <script type="text/javascript" src="//use.typekit.net/sqn3byi.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+    <header></header>
+    <div class="logo">
+        <img src="images/logo-iw.png" alt="">
+        <br>
+        <span>Snippets page</span>
+        <p>
+            This is a visual description of all the email snippets we use.
+        </p>
+    </div>
+    <div class="download">
+        <p>
+            <strong>Download our snippet collection</strong>
+        </p>
+        <p>
+            <a href="snippets/snippets.zip"><img src="images/zip_icon.png" alt="" align="middle" width="30">
+            <br>
+            Snippets.zip</a>
+        </p>
+    </div>
+    <div class="main">
+        <section class="snippet">
+            <h4>etab</h4>
+            <p>Standard email table</p>
+                <pre><code class="language-markup">
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;&quot;&gt;
+    &lt;tr&gt;
+
+    &lt;/tr&gt;
+&lt;/table&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>eimg</h4>
+            <p>Standard email image. Use with slices named img_</p>
+                <pre><code class="language-markup">
+&lt;img src=&quot;images/img_.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>ebut</h4>
+            <p>Email button. Needs a button .gif image file to work</p>
+                <pre><code class="language-markup">
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;190&quot; height=&quot;25&quot; style=&quot;background-color:#000;&quot;&gt;
+    &lt;tr&gt;
+        &lt;td align=&quot;center&quot;&gt;
+            &lt;img src=&quot;images/button.gif&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot; width=&quot;1&quot; height=&quot;25&quot;&gt;&lt;/td&gt;
+            &lt;td valign=&quot;middle&quot; style=&quot;font-family: san-serif; font-size:14px;&quot;  align=&quot;center&quot;&gt;&lt;a href=&quot;#&quot; style=&quot;color:#fff; display: inline-block; text-decoration: none;&quot;&gt;Button text&lt;/a&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>cen</h4>
+            <p>Full width image in a table row, with a link</p>
+                <pre><code class="language-markup">
+&lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>sanst</h4>
+            <p>Times new roman text for styling links</p>
+                <pre><code class="language-css">
+style=&quot;font-family: Times New Roman, 'Times New Roman', Times, Baskerville, Georgia, serif; font-size: 16px; line-height: 22px; color: #2a2a2a; text-decoration: none; display:block;&quot;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>2cen</h4>
+            <p>2 column images in a table</p>
+                <pre><code class="language-markup">
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;&quot;&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>3cen</h4>
+            <p>3 column images in a table</p>
+                <pre><code class="language-markup">
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;&quot;&gt;
+            &lt;tr&gt;
+                &lt;td align=&quot;center&quot;&gt;
+                   &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+               &lt;/td&gt;
+               &lt;td align=&quot;center&quot;&gt;
+                   &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+               &lt;/td&gt;
+               &lt;td align=&quot;center&quot;&gt;
+                   &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+               &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>4cen</h4>
+            <p>3 column images in a table</p>
+                <pre><code class="language-markup">
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;&quot;&gt;
+            &lt;tr&gt;
+                &lt;td align=&quot;center&quot;&gt;
+                   &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+               &lt;/td&gt;
+               &lt;td align=&quot;center&quot;&gt;
+                   &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+               &lt;/td&gt;
+               &lt;td align=&quot;center&quot;&gt;
+                   &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+               &lt;/td&gt;
+               &lt;td align=&quot;center&quot;&gt;
+                   &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+               &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>helv</h4>
+            <p>Helvetica text</p>
+                <pre><code class="language-css">
+font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                </code>
+            </pre>
+        </section>
+                <section class="snippet">
+            <h4>offer</h4>
+            <p>Creating a center aligned full width text banner, witha  link</p>
+                <pre><code class="language-markup">
+&lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;
+        &lt;a href=&quot;&quot; style=&quot;font-family: Times New Roman, 'Times New Roman', Times, Baskerville, Georgia, serif; font-size: 20px; line-height: 26px; color: #2a2a2a; text-decoration: none; display:block;&quot;&gt;
+
+        &lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>600s</h4>
+            <p>Creating a 600px wide table with 25px margin</p>
+                <pre><code class="language-markup">
+&lt;tr&gt;
+    &lt;td&gt;
+        &lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;600&quot;&gt;
+            &lt;tr&gt;
+                &lt;td width=&quot;25&quot;&gt;&lt;/td&gt;
+                &lt;td width=&quot;550&quot; align=&quot;left&quot; style=&quot;font-family: Georgia, Times, 'Times New Roman', serif; font-size: 14px; line-height: 20px; color: #393939;&quot;&gt;&lt;/td&gt;
+                &lt;td width=&quot;25&quot;&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>allimage</h4>
+            <p>Creating a number of rows with linked images inside</p>
+                <pre><code class="language-markup">
+&lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_03.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_05.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_06.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_07.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_08.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_09.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_10.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_11.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_12.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;
+        &lt;a href=&quot;&quot;&gt;&lt;img src=&quot;images/img_13.jpg&quot; alt=&quot;&quot; style=&quot;display: block; border: 0&quot;&gt;&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>back</h4>
+            <p>Creating a style with background color option</p>
+                <pre><code class="language-css">
+style=&quot;background-color:$1;&quot;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>cssmobile</h4>
+            <p>Creating all css for mobile version used in these snippets and most useful ones</p>
+                <pre><code class="language-css">
+/*Mobile*/
+           @media only screen and (max-width: 500px) {
+            *[class].fl{float:left !important;}
+            *[class].wr{display:block !important;}
+            *[class].width100{width:100% !important;}
+            *[class].width10{width:3.5% !important;}
+            *[class].width580{width:93% !important;}
+            *[class].hidden{height:12px !important; font-style:12px !important;}
+            *[class].lc{text-align:center !important;}
+            *[class].delete{width:0px !important; height:0px !important; font-size:0px !important; line-height:0px !important;}
+            *[class].trmobile{width:100% !important; height:10px !important; font-size:5px !important; line-height:5px !important;}
+
+           }  
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>emailtable</h4>
+            <p>Creating an email container table</p>
+                <pre><code class="language-markup">
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot; id=&quot;backgroundTable&quot;&gt;
+    &lt;tr&gt;
+        &lt;td align=&quot;center&quot;&gt;
+            &lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;600&quot;&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;$0&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&nbsp;&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&nbsp;&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&nbsp;&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;&nbsp;&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>email</h4>
+            <p>Creating the starting code for an email for a new document</p>
+                <pre><code class="language-markup">
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=UTF-8&quot;&gt;
+    &lt;title&gt;$0&lt;/title&gt;
+&lt;/head&gt;
+&lt;body style=&quot;-webkit-text-size-adjust: none; -ms-text-size-adjust: none;  margin: 0; padding: 0;&quot;&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>emailcss</h4>
+            <p>Creating the main css code for the header of an email</p>
+                <pre><code class="language-markup">
+&lt;style type=&quot;text/css&quot;&gt;       
+    body {width: 100% !important;} 
+    *[class].ReadMsgBody { width: 100%; } 
+    *[class].ExternalClass {width: 100%;  -webkit-text-size-adjust: none; -ms-text-size-adjust: none;  margin: 0; padding: 0; }
+    img { outline: none; text-decoration: none; }
+    a img { border:none; }
+    #backgroundTable { margin: 0; padding: 0; width: 100% !important; }
+    table td { border-collapse: collapse; }
+    *[class].yshortcuts, *[class].yshortcuts a, *[class].yshortcuts a:link,*[class].yshortcuts a:visited, *[class].yshortcuts a:hover, *[class].yshortcuts a span { color: black; text-decoration: none !important; border-bottom: none !important; background: none !important;}       
+&lt;/style&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>emailpre</h4>
+            <p>Creating a table for intro line and view in browser option</p>
+                <pre><code class="language-markup">
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;100%&quot;&gt;
+    &lt;tr&gt;
+        &lt;td width=&quot;50%&quot; align=&quot;left&quot; style=&quot;font-family: sans-serif; font-size:12px; color: #3a3a3a; padding: 5px 0&quot;&gt;$0&lt;/td&gt;
+        &lt;td width=&quot;50%&quot; align=&quot;right&quot; style=&quot;font-family: sans-serif; font-size:12px&quot;&gt;
+            &lt;a href=&quot;[VIEW_ONLINE_HTML]&quot; style=&quot;color:#3a3a3a&quot;&gt;View in browser&lt;/a&gt; | &lt;a href=&quot;[UNSUBSCRIPTION_LINK]&quot; style=&quot;color:#3a3a3a&quot;&gt;Unsubscribe&lt;/a&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>emailrespon</h4>
+            <p>Basic css code to insert in head section for responsive emails</p>
+                <pre><code class="language-css">
+/* Desktop */
+        @media only screen and (min-width: 501px) {
+        *[class].maintable {width:600px !important;}
+        *[class].bannerimg {width:600px !important;}
+        }
+
+/*Mobile*/
+        @media only screen and (max-width: 500px) {
+        *[class].maintable {width:100% !important;}
+        *[class].bannerimg {width:100% !important; height: auto !important;}
+        }
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>grad</h4>
+            <p>Css code for gradient background</p>
+                <pre><code class="language-css">
+background-color: #ffd861;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd861), to(#f8b921));
+background-image: -webkit-linear-gradient(top, #ffd861, #f8b921);
+background-image: -moz-linear-gradient(top, #ffd861, #f8b921);
+background-image: -o-linear-gradient(top, #ffd861, #f8b921);
+background-image: linear-gradient(to bottom, #ffd861, #f8b921);
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>margin10</h4>
+            <p>Create a table with 10px of margin and keep the same format on mobile (with %)
+                <br>Use for any table size:  $1 set the size of your table $2 set size without margins ($1 - 20px)<br>
+                (To use in combination with <strong>cssmobile</strong> + needs a spacer.gif image file to work)</p></p>
+                <pre><code class="language-markup">
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; width=&quot;$1&quot; class=&quot;width100&quot;&gt;
+    &lt;tr&gt;
+        &lt;td width=&quot;10&quot; class=&quot;width10&quot;&gt;&lt;img src=&quot;images/spacer.gif&quot; style=&quot;display: block; border: 0&quot; width=&quot;10&quot; height=&quot;1&quot; class=&quot;width10&quot;&gt;&lt;/td&gt;
+        &lt;td width=&quot;$2&quot; class=&quot;width580&quot; align=&quot;center&quot;&gt;
+            $3
+        &lt;/td&gt;
+        &lt;td width=&quot;10&quot; class=&quot;width10&quot;&gt;&lt;img src=&quot;images/spacer.gif&quot; style=&quot;display: block; border: 0&quot; width=&quot;10&quot; height=&quot;1&quot; class=&quot;width10&quot;&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>mcol</h4>
+            <p>Creates a row with <em>n</em> cells next to each other that in mobile version will visualise as rows <br>
+                (To use in combination with <strong>cssmobile</strong>)</p>
+                <pre><code class="language-markup">
+
+&lt;tr class=&quot;wr&quot; align=&quot;center&quot;&gt;
+    &lt;td align=&quot;left&quot; class=&quot;width100 wr fl&quot;&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;right&quot; class=&quot;width100 wr fl&quot;&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;center&quot; class=&quot;width100 wr fl&quot;&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;center&quot; class=&quot;width100 wr fl&quot;&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;right&quot; class=&quot;width100 wr fl&quot;&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;center&quot; class=&quot;width100 wr fl&quot;&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>navvy</h4>
+            <p>Creating an <em>ul</em> <em>li</em> list</p>
+                <pre><code class="language-markup">
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;class-1&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;class-2&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;class-3&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;class-4&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;&quot; class=&quot;class-5&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;$0
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>stylesans</h4>
+            <p>Style code for san-serif font</p>
+                <pre><code class="language-css">
+style=&quot;font-family: 'Myriad Pro', Myriad, 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 20px; color: #2a2a2a;&quot;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>tdcenter</h4>
+            <p>Creating a row with a cell with align center</p>
+                <pre><code class="language-markup">
+&lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;
+        $1
+    &lt;/td&gt;
+&lt;/tr&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>twcif</h4>
+            <p>Creating dynamic if for The Whit Company emails</p>
+                <pre><code class="language-markup">
+{?if $contacts_data_6 == '$'?}
+
+{?/if?}
+                </code>
+            </pre>
+        </section>
+
+
+
+        <section class="snippet">
+            <h4>upper</h4>
+            <p>Creating a span tag styled with uppercase text</p>
+                <pre><code class="language-markup">
+&lt;span style=&quot;text-transform:uppercase;&quot;&gt;
+                </code>
+            </pre>
+        </section>
+
+
+
+    </div>
+    <footer></footer>
+    <script src="js/prism.js"></script>
+</body>
+</html>

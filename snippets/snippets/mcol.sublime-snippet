@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<tr class="wr" align="center">
+    <td align="left" class="width100 wr fl">
+        
+    </td>
+    <td align="right" class="width100 wr fl">
+        
+    </td>
+    <td align="center" class="width100 wr fl">
+        
+    </td>
+    <td align="center" class="width100 wr fl">
+        
+    </td>
+    <td align="right" class="width100 wr fl">
+        
+    </td>
+    <td align="center" class="width100 wr fl">
+        
+    </td>
+</tr>
+]]></content>
+<tabTrigger>mcol</tabTrigger>
+</snippet>
